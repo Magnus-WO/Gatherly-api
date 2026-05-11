@@ -52,5 +52,37 @@
       "created": "2026-01-10T11:45:00",
       "updated": "2026-01-10T11:45:00"
     }
+  ],
+  "userPosts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "text": "Noen anbefalinger til arrangementer?",
+      "likes": 1,
+      "dislikes": 0,
+      "comments": [
+        {
+          "id": 1,
+          "userId": 1,
+          "comment": "Tenkte å dra på en trening arrangement",
+          "created": "2026-01-10T12:00:00"
+        },
+        {
+          "id": 2,
+          "userId": 2,
+          "comment": "Fitness hadde vært gøy da!",
+          "created": "2026-01-10T12:00:00"
+        }
+      ],
+      "created": "2026-01-10T11:45:00",
+      "updated": "2026-01-10T11:45:00"
+    }
+  ],
+  "userlikes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1
+    }
   ]
 }
