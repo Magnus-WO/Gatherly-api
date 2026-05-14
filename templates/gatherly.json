@@ -6,6 +6,13 @@
       "description": "Frontend-utvikler som liker tech-meetups",
       "created": "2025-09-01T10:30:00",
       "updated": "2025-09-10T14:20:00"
+    },
+    {
+      "id": 2,
+      "userName": "Kari Nordmann",
+      "description": "Nysgjerrig front-end utvikling student som liker hva som helst",
+      "created": "2025-09-01T10:30:00",
+      "updated": "2025-09-10T14:20:00"
     }
   ],
   "meetups": [
@@ -22,6 +29,18 @@
         "universell utforming",
         "gratis"
       ],
+      "created": "2025-12-01T09:00:00",
+      "updated": "2025-12-01T09:00:00"
+    },
+    {
+      "id": 2,
+      "ownerId": 2,
+      "name": "Syng på Syng",
+      "description": "Vi feirer slutten av vår semestret på Syng Mer. Bli med!",
+      "location": "Oslo",
+      "date": "2026-05-26",
+      "tags": ["mat/drikke", "musikk", "gratis"],
+      "price": 0,
       "created": "2025-12-01T09:00:00",
       "updated": "2025-12-01T09:00:00"
     }
@@ -88,7 +107,7 @@
   "attendance": [
     {
       "id": 1,
-      "meetupId": 2000,
+      "meetupId": 1,
       "userId": 1
     }
   ]
